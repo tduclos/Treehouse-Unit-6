@@ -16,17 +16,16 @@ app.use('/project', projectRoute);
 
 //error handling
 
-app.use((req, res, next) => {
-    const err = new Error('not Found');
-    err.status = 404;
-    next(err);
+app.use((req,res,next) =>{
+	const err = new Error ('Not Found!');
+	err.status = 404;
+	next(err);
 });
 
-app.use((err, req, res, next) => {
-    res.locals.error = err;
-    const status = err.status? err.status : 500;
-    res.status(err.status || 500);
-    res.render('error', err);
+app.use((err, req, res, next)=>{
+	res.locals.error = err;
+	res.status(err.status);
+	res.render('error');
 });
 
 app.listen(3000, () => {

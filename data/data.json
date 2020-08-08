@@ -8,7 +8,7 @@
         "technologies": ["Html", "CSS", "JavaScript"],
         "live_link": "https://tduclos.github.io/Treehouse-Unit-1",
         "github_link": "https://github.com/tduclos/Treehouse-Unit-1",
-        "image_urls": ["/images/1-1.png","/images/1-2.png"]
+        "image_urls": "pr1"
       },
       {
         "id": "1",
@@ -17,7 +17,7 @@
         "technologies": ["Html", "CSS", "JavaScript"],
         "live_link": "https://tduclos.github.io/Treehouse-Unit-2",
         "github_link": "https://github.com/tduclos/Treehouse-Unit-2",
-        "image_urls": ["/images/2-1.png","/images/2-2.png"]
+        "image_urls": "pr2"
       },
       {
         "id": "2",
@@ -26,7 +26,7 @@
         "technologies": ["Html", "CSS", "JavaScript"],
         "live_link": "https://tduclos.github.io/Treehouse-Unit-3/",
         "github_link": "https://github.com/tduclos/Treehouse-Unit-3",
-        "image_urls": ["/images/3-1.png","/images/3-2.png"]
+        "image_urls": "pr3"
       },
       {
         "id": "3",
@@ -35,7 +35,7 @@
         "technologies": ["Html", "CSS", "JavaScript"],
         "live_link": "https://tduclos.github.io/Treehouse-Unit-4/",
         "github_link": "https://github.com/tduclos/Treehouse-Unit-4",
-        "image_urls": ["/images/4-1.png","/images/4-2.png"]
+        "image_urls": "pr4"
       },
       {
         "id": "4",
@@ -44,7 +44,7 @@
         "technologies": ["Html", "CSS", "JavaScript"],
         "live_link": "https://tduclos.github.io/Treehouse-Unit-5/",
         "github_link": "https://github.com/tduclos/Treehouse-Unit-5",
-        "image_urls": ["/images/5-1.png","/images/5-2.png"]
+        "image_urls": "pr5"
       }
     ]
   }

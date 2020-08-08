@@ -4,24 +4,27 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1 Heading
+      //Heading
+      h1 Welcome to my Portfolio!
 
-      //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+      //Description
       p.lead.text-light
-        | Portfolio Description
+        | Here's a look at some projects I've been working on through the Treehouse Techdree!
   article.grid-container.portfolio-index
     
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
 
-      //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
-      
-      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
-      
-      //- Here's what the Pug for each project example should look like. 
+      //Project Gallery
 
+      
+      each project in projects
+        .cell
+          a(href='/project/'+project.id)
+            img.thumbnail(src='/static/img/' + project.image_urls + '/main.png')
+            h5= project.project_name
+      
+      //I turned the sample code into a 'coming soon' on the off chance I return to this
       .cell
         a(href='#')
           img.thumbnail(src='https://placehold.it/550x550')
-          h5 Title
-      
+          h5 More coming soon(?)

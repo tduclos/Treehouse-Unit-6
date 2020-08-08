@@ -14,26 +14,26 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail(src='/static/img/profile.png')
           .cell.auto
 
-            //- Add your name here.
-            h5 Name
+            //Name
+            h5 Tim Duclos
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
+            //Short Bio
             p.text-light
-              | Description
+              | Student Full-Stack JS Developer, gaming enthusiast, and now somehow I'm on the web?
 
             //- Add about page route to the href below. 
-            a(href='') Learn More →
+            a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          //Name for the mobile version
+          span.title-bar-title Tim Duclos
       block content
         
 
