@@ -1,0 +1,51 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": "0",
+        "project_name": "Random Quote Generator",
+        "description": "An app that displays a random quote. You can click the button to change quotes!",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://tduclos.github.io/Treehouse-Unit-1",
+        "github_link": "https://github.com/tduclos/Treehouse-Unit-1",
+        "image_urls": ["/images/1-1.png","/images/1-2.png"]
+      },
+      {
+        "id": "1",
+        "project_name": "List with Pagination and Filtering",
+        "description": "A list of employees, paginated into groups of ten.",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://tduclos.github.io/Treehouse-Unit-2",
+        "github_link": "https://github.com/tduclos/Treehouse-Unit-2",
+        "image_urls": ["/images/2-1.png","/images/2-2.png"]
+      },
+      {
+        "id": "2",
+        "project_name": "Interactive Form",
+        "description": "An interactive form for a hypothetical convention signup, complete with error detection!",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://tduclos.github.io/Treehouse-Unit-3/",
+        "github_link": "https://github.com/tduclos/Treehouse-Unit-3",
+        "image_urls": ["/images/3-1.png","/images/3-2.png"]
+      },
+      {
+        "id": "3",
+        "project_name": "OOP Phrase Hunter Game",
+        "description": "A Hangman-esque mini-game with multiple possible phrases.",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://tduclos.github.io/Treehouse-Unit-4/",
+        "github_link": "https://github.com/tduclos/Treehouse-Unit-4",
+        "image_urls": ["/images/4-1.png","/images/4-2.png"]
+      },
+      {
+        "id": "4",
+        "project_name": "Public API Requets",
+        "description": "An app that connects to an outsideAPI to deliver a selection of random employees. Also features modal windows with more info on every person!",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://tduclos.github.io/Treehouse-Unit-5/",
+        "github_link": "https://github.com/tduclos/Treehouse-Unit-5",
+        "image_urls": ["/images/5-1.png","/images/5-2.png"]
+      }
+    ]
+  }
+}
