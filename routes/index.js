@@ -1,7 +1,7 @@
 //declarations
 const express = require('express');
 const router = express.Router();
-const { data } = require('../data/Data.json');
+const { data } = require('../data/data.json');
 const { projects } = data;
 
 //index page
